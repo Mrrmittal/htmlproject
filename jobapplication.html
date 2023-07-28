@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <title>Job Application</title>
+    <h1>Job Application</h1>
+    <body>
+        <div>
+            <label for="name">Name : </label><br>
+            <input type="text" id="name" placeholder="Enter your name here">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="email">Email : </label><br>
+            <input type="text" id="email" placeholder="Enter your email here">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="contact">Phone : </label><br>
+            <input type="tel" id="contact" placeholder="Enter your Phone Number">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="resume">Resume : </label><br>
+            <input type="file" id="resume" name="Choose">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="Experience">Experience(Years) : </label><br>
+            <input type="number" name="counter" id="Experience" min="0" max="50">
+        </div>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Skills : </legend>
+            <input type="checkbox" id="html"> <br>
+            <label for="html"> HTML </label> <br>
+            
+            <input type="checkbox" id="css"> <br>
+            <label for="css"> CSS </label> <br>
+            
+            <input type="checkbox" id="JS"> <br>
+            <label for="JS"> Java Script </label> <br>
+        
+        </fieldset>
+        <br>
+        <br>
+        <div>
+        <label for="education"> Higher Education : </label> <br>
+        <select name="Education" id="education">
+        <option value="High School"> High School</option>
+        <option value="Matrics"> Matrics</option>
+        <option value="Primary"> Primary </option>
+        <option value="Graduation "> Graduation </option>
+        </select>
+    </div>
+    <br>
+    <br>
+    <div>
+       <fieldset>
+        <legend>Availabilty : </legend>
+        <input type="radio" name="radio" id="Full Time">
+        <label for="Full Time">Full Time : </label>
+        <br>
+        
+        <input type="radio" name="radio" id="Part Time">
+        <label for="Part Time">Part Time : </label>
+       </fieldset>
+    </div>
+    <br>
+    <br>
+    <div>
+        <label for="Comment"> Additional Comments : </label> <br> <br>
+        <textarea name="Comments" id="Comment" cols="40" rows="10"></textarea>
+        <button>Submit Application</button>
+    </div>
+    </body>
+</html>
