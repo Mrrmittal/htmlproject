@@ -1,0 +1,11 @@
+#nature{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-image: url(../Pictures/love-nature.jpg);
+    background-size: cover;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+}

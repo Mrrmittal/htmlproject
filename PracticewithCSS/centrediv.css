@@ -1,0 +1,15 @@
+#first{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+#second{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}

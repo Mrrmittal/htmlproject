@@ -1,0 +1,26 @@
+nav{
+    background-color: black;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+#one{
+    display: inline-block;
+    color: white;
+    
+}
+#two{
+    display: inline-block;
+    color: white;
+}
+#three{
+    display: inline-block;
+    color: white;
+}
+#four{
+    display: inline-block;
+    color: white;
+    
+}
